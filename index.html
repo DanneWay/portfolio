@@ -11,7 +11,7 @@
 
 <body class="bg-black">
     <div class="relative">
-        <header class="fixed top-0 left-0 w-full p-5 bg-[#000] border-b border-neutral-700">
+        <header class="fixed top-0 left-0 w-full lg:py-5 lg:px-5 py-5 px-2 bg-[#000] border-b border-neutral-700">
             <nav class="text-[#d4d5c9] flex flex-col items-start gap-5">
                 <div class="w-full flex items-center justify-between">
                     <div>
@@ -45,7 +45,7 @@
         </header>
 
         <div class="z-50" id="accueil">
-            <div class="mt-[110px] lg:mt-[150px] px-5">
+            <div class="mt-[110px] lg:mt-[150px] lg:px-5 px-2">
                 <div>
                     <p class="text-[#d4d5c9] lg:text-md text-sm anime-1">DÉVELOPPEUR FULL-STACK</p>
                 </div>
@@ -57,7 +57,7 @@
                         </div>
 
                         <div class="text-[#d4d5c9] lg:text-md md:text-md text-sm font-light anime-3">
-                            <p>Je transforme des idées en applications web performantes et élégantes. Spécialisé en React, Node.js et architectures modernes.</p>
+                            <p>Je transforme des idées en applications web performantes et élégantes selon les besoins et les fonctionnalités du client. </p>
                         </div>
 
                         <div class="flex items-start gap-4 mt-6 anime-4">
@@ -77,8 +77,8 @@
                         <div class="relative w-full max-w-md aspect-square">
                             <div class="absolute inset-0 bg-gradient-to-br from-[#dc143c] to-[#dc143c]/30 opacity-60 rounded-full blur-3xl"></div>
                             <div class="absolute inset-0 flex items-center justify-center anime-6">
-                                <div class="w-96 h-96 border border-[#DC143Caa] rounded-full flex items-center justify-center">
-                                    <div class="w-72 h-72 border border-[#f69aacaa] rounded-full flex items-center justify-center">
+                                <div class="lg:w-96 w-80 lg:h-96 h-80 border border-[#DC143Caa] rounded-full flex items-center justify-center">
+                                    <div class="lg:w-72 w-64 lg:h-72 h-64 border border-[#f69aacaa] rounded-full flex items-center justify-center">
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
             <!-- A propos-->
 
             <section class="py-20 relative mt-4" id="about">
-                <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-7xl mx-auto lg:px-5 px-2">
                     <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-12 lg:items-center md:items-center items-start">
                         <div class="relative h-[500px]">
                             <div class="absolute inset-0 flex items-center justify-center">
@@ -144,8 +144,8 @@
                                             <div class="flex items-center space-x-2">
                                                 <span class="text-[#dc143c]">const</span>
                                                 <span class="text-[#d4d5c9]">dev</span>
-                                                <span class="text-[#4a4a4a]">=</span>
-                                                <span class="text-[#4a4a4a]">{</span>
+                                                <span class="text-[#d4d5c9]/70">=</span>
+                                                <span class="text-[#d4d5c9]/70">{</span>
                                             </div>
 
                                             <div class="flex items-center space-x-2 pl-6">
@@ -234,7 +234,7 @@
 
             <!-- Compétences -->
 
-            <div class="w-full px-5 mt-[80px]" id="skills">
+            <div class="w-full lg:px-5 px-2 mt-[80px]" id="skills">
                 <div class="w-full flex flex-col items-center justify-center gap-3">
                     <p class="text-[#4a4a4a] text-sm">COMPETENCES</p>
                     <p class="text-4xl uppercase text-[#d4d5c9] font-semibold">Stack <span class="text-[#DC143C]">technique</span></p>
@@ -467,7 +467,7 @@
             </div>
 
             <!-- Ce que je propose -->
-            <div class="w-full px-5 mt-[80px]">
+            <div class="w-full lg:px-5 px-2 mt-[80px]">
                 <div class="w-full flex flex-col items-center justify-center">
                     <p class="text-4xl uppercase text-[#d4d5c9] font-semibold">ce que <span class="text-[#DC143C]">je propose</span></p>
                 </div>
@@ -537,7 +537,7 @@
 
             <!-- Mes projets -->
 
-            <div class="w-full px-5 mt-[80px]" id="projets">
+            <div class="w-full lg:px-5 px-2 mt-[80px]" id="projets">
                 <div class="w-full flex flex-col items-center justify-center gap-3 mb-3">
                     <p class="text-[#4a4a4a] text-sm">REALISATIONS</p>
                     <p class="text-4xl uppercase text-[#d4d5c9] font-semibold">Mes <span class="text-[#DC143C]">Projets</span></p>
@@ -545,11 +545,11 @@
 
                 <div class="w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-6 lg:mt-10 md:mt-10">
                     <div class="rounded-md">
-                        <div class="w-full h-[200px] overflow-hidden rounded-t-md">
+                        <div class="w-full h-[250px] overflow-hidden rounded-t-md">
                             <img src="assets/code_1.JPG" alt="" class="w-full">
                         </div>
 
-                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[250px] rounded-b-md">
+                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[270px] rounded-b-md">
                             <div>
                                 <p class="text-[#dc143c] text-md font-semibold">Site/Plateforme</p>
                             </div>
@@ -571,11 +571,11 @@
                     </div>
 
                     <div class="rounded-md">
-                        <div class="w-full h-[200px] overflow-hidden rounded-t-md">
+                        <div class="w-full h-[250px] overflow-hidden rounded-t-md">
                             <img src="assets/dsl_19.jpg" alt="" class="w-full">
                         </div>
 
-                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[250px] rounded-b-md">
+                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[270px] rounded-b-md">
                             <div>
                                 <p class="text-[#dc143c] text-md font-semibold">Application Web</p>
                             </div>
@@ -597,11 +597,11 @@
                     </div>
 
                     <div class="rounded-md">
-                        <div class="w-full h-[200px] overflow-hidden rounded-t-md">
+                        <div class="w-full h-[250px] overflow-hidden rounded-t-md">
                             <img src="assets/clinique.jpg" alt="" class="w-full">
                         </div>
 
-                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[250px] rounded-b-md">
+                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[270px] rounded-b-md">
                             <div>
                                 <p class="text-[#dc143c] text-md font-semibold">Application Web</p>
                             </div>
@@ -623,11 +623,11 @@
                     </div>
 
                     <div class="rounded-md">
-                        <div class="w-full h-[200px] overflow-hidden rounded-t-md">
+                        <div class="w-full h-[250px] overflow-hidden rounded-t-md">
                             <img src="assets/congo_3.JPG" alt="" class="w-full">
                         </div>
 
-                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[250px] rounded-b-md">
+                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[270px] rounded-b-md">
                             <div>
                                 <p class="text-[#dc143c] text-md font-semibold">Application Web</p>
                             </div>
@@ -647,11 +647,11 @@
                     </div>
 
                     <div class="rounded-md">
-                        <div class="w-full h-[200px] overflow-hidden rounded-t-md">
+                        <div class="w-full h-[250px] overflow-hidden rounded-t-md">
                             <img src="assets/immo_2.JPG" alt="" class="w-full">
                         </div>
 
-                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[250px] rounded-b-md">
+                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[270px] rounded-b-md">
                             <div>
                                 <p class="text-[#dc143c] text-md font-semibold">Application Web</p>
                             </div>
@@ -672,11 +672,11 @@
                     </div>
 
                     <div class="rounded-md">
-                        <div class="w-full h-[200px] overflow-hidden rounded-t-md">
+                        <div class="w-full h-[250px] overflow-hidden rounded-t-md">
                             <img src="assets/fresh_1.JPG" alt="" class="w-full">
                         </div>
 
-                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[250px] rounded-b-md">
+                        <div class="p-3 bg-neutral-900 lg:h-[300px] h-[270px] rounded-b-md">
                             <div>
                                 <p class="text-[#dc143c] text-md font-semibold">Application Web</p>
                             </div>
@@ -699,7 +699,7 @@
 
                 <!-- Contact -->
 
-                <div class="w-full px-5 mt-[80px]" style="margin-bottom: 100px;" id="contact">
+                <div class="w-full lg:px-5 px-2 mt-[80px]" style="margin-bottom: 100px;" id="contact">
                     <div class="w-full flex flex-col items-center justify-center gap-3 mb-3">
                         <p class="text-4xl text-[#dc143c] font-semibold uppercase">Contact</p>
                     </div>
