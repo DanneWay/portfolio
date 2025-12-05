@@ -977,6 +977,14 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1202,6 +1210,11 @@ video {
     padding-right: 2rem;
   }
 
+  .md\:py-\[11px\] {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -1216,6 +1229,18 @@ video {
 
   .lg\:top-\[120px\] {
     top: 120px;
+  }
+
+  .lg\:top-\[100px\] {
+    top: 100px;
+  }
+
+  .lg\:top-\[95px\] {
+    top: 95px;
+  }
+
+  .lg\:top-\[80px\] {
+    top: 80px;
   }
 
   .lg\:mt-\[150px\] {
@@ -1285,6 +1310,16 @@ video {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-\[11px\] {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .lg\:py-\[10px\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .lg\:text-6xl {
